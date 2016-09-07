@@ -8,10 +8,10 @@ use \pushAPI\LOGGING;
 $log = new LOGGING();
 $log->lfile(__DIR__ . '/logs/appleNewsFormat.log');
 //define resource information
-$channelInfo = array("channelId"=>"14c12e14-d7b1-41f1-a61e-7b18501e8639",
+$channelInfo = array("channelId"=>"",
 		"endpoint"=>"https://news-api.apple.com",
-		"api_key_id"=>"b00422c1-b3f1-4917-82e4-373cb7474811",
-		"api_key_secret"=>"uqHwbBGYD0VKh0467qltp2tezi9P3/J2Ued3AgLUTk0="
+		"api_key_id"=>"",
+		"api_key_secret"=>""
 ); 
 
 $util = new UTILS();
