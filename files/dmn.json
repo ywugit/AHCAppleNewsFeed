@@ -1,0 +1,254 @@
+{
+  "version": "1.0",
+  "identifier": "DMN_Demo",
+  "title": "DMN 2016-02-01 1 new with Headline under Header Image",
+  "language": "en",
+  "layout": {
+    "columns": 7,
+    "width": 1024,
+    "margin": 70,
+    "gutter": 40
+  },
+   "metadata": {
+    " ": "2016-01-10T11:15:00+00:00",
+    "dateModified": "2016-01-10T11:15:00+00:00",
+    "thumbnailURL": "bundle://header.jpg",
+    "authors": [
+      "Urna Semper"
+    ],
+    "excerpt": "How To Succeed In Shanghai (And Have Some Fun, Too), from excerpt"
+  },
+  "components": [
+  	 {
+		"role": "header",
+		"layout": {
+			"columnStart": 0,
+      		"columnSpan": 7,
+     		"minimumHeight": "70cw"
+			},
+		"style": {
+			"fill": {
+        	"URL": "bundle:\/\/NM_28EXXXOTICA_AL02_45217133",
+        	"caption": "caption",
+        	"fillMode": "cover",
+        	"verticalAlignment": "top",
+        	"horizontalAlignment": "center",
+        	"type": "image"
+      			}	
+      		}
+      },
+      {
+      "role": "gallery",
+      "items": [
+        {
+          "URL": "bundle://galleryImage1.jpg",
+          "caption": "Iceland is the world’s youngest country, geologically speaking."
+        },
+        {
+          "URL": "bundle://galleryImage2.jpg",
+          "caption": "Volcanic activity creates interesting thermal pools."
+        },
+        {
+          "URL": "bundle://galleryImage3.jpg",
+          "caption": "Iceland is famous for its sturdy equines."
+        }
+      ],
+      "layout": "galleryLayout",
+      "textStyle": "galleryStyle"
+    }, 
+    {
+      "role": "title",
+      "layout": "titleLayout",
+      "text": "Headline Under Image",
+      "textStyle": "titleStyle"
+    },
+    {
+      "role": "intro",
+      "layout": "introLayout",
+      "text": "Sed ut perspiciatis unde omnis iste ",
+      "textStyle": "introStyle"
+    },
+    {
+      "role": "author",
+      "layout": "authorLayout",
+      "text": "Byline | Publisher | Date",
+      "textStyle": "authorStyle"
+    },
+    {
+      "role": "body",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ",
+      "layout": "bodyLayout",
+      "format": "markdown",
+      "textStyle": "bodyStyle" 
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "components": [
+        {
+          "role": "intro",
+          "text": "Related Stories",
+          "layout": "relatedStoryTitleLayout",
+          "textStyle": "introStyle"
+        },
+        {
+          "role": "body",
+          "text": "Related Stories URL",
+          "layout": "relatedStoryBodyLayout",
+           "format": "markdown",
+          "textStyle": "relatedStoryBodyStyle"
+        }
+      ]
+    }
+
+  ],
+  "componentTextStyles": {
+    "titleStyle": {
+      "textAlignment": "left",
+      "fontName": "Georgia-Bold",
+      "fontSize": 34,
+      "textColor": "#000"
+    },
+    "galleryStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Bold",
+      "fontSize": 14,
+      "textColor": "#000"
+    },
+    "introStyle": {
+      "textAlignment": "left",
+      "fontName": "AvenirNext-Medium",
+      "fontSize": 20,
+      "textColor": "#000"
+    },
+    "authorStyle": {
+      "textAlignment": "left",
+      "fontName": "AvenirNext-Medium",
+      "fontSize": 16,
+      "textColor": "#53585F"
+    },
+    "bodyStyle": {
+      "textAlignment": "left",
+      "fontName": "AvenirNext-Regular",
+      "fontSize": 16,
+      "lineHeight": 20,
+      "textColor": "#000",
+      "linkStyle": {
+        "textColor": "#428bca"
+      }
+    },
+    "relatedStoryBodyStyle": {
+      "textAlignment": "left",
+      "fontName": "AvenirNext-Regular",
+      "fontSize": 16,
+      "lineHeight": 16,
+      "textColor": "#000",
+      "linkStyle": {
+        "textColor": "#428bca"
+      }
+    },
+    "captionStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Medium",
+      "fontSize": 12,
+      "lineHeight": 17,
+      "textColor": "#000"
+    },
+    "heading1Style": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Medium",
+      "fontSize": 28,
+      "lineHeight": 41,
+      "textColor": "#000"
+    },
+    "pullquoteStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Bold",
+      "fontSize": 28,
+      "lineHeight": 41,
+      "textColor": "#000"
+    }
+  },
+  "componentLayouts": {
+    "titleLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 30,
+        "bottom": 10
+      }
+    },
+    "galleryLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "horizontalContentAlignment": "left"
+    },
+    "introLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+     "relatedStoryTitleLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 0
+      }
+    },
+    "authorLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+    "bodyLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+     "relatedStoryBodyLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 10,
+        "bottom": 15
+      }
+    },
+    "captionLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 5,
+        "bottom": 15
+      }
+    },
+    "heading1Layout": {
+      "columnStart": 0,
+      "columnSpan": 5,
+      "margin": {
+        "top": 15
+      }
+    },
+    "pullquoteLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    }
+  }
+}

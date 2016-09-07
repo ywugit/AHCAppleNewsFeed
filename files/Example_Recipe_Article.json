@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "identifier": "Apple_Demo",
+  "title": "Example Recipe Article",
+  "subtitle": "Take your all-American cookie classic to the next level",
+  "language": "en",
+  "layout": {
+    "columns": 7,
+    "width": 1024,
+    "margin": 70,
+    "gutter": 25
+  },
+  "metadata": {
+    "datePublished": "2015-05-14T10:45:00+00:00",
+    "dateCreated": "2015-05-14T10:45:00+00:00",
+    "dateModified": "2015-05-14T10:45:00+00:00",
+    "authors": [
+      "Stewart Mason"
+    ],
+    "generatorName": "Generator",
+    "generatorVersion": "1.0",
+    "thumbnailURL": "bundle://header.jpg",
+    "canonicalURL": "http://www.apple.com",
+    "keywords": [
+      "Cookies",
+      "Chocolate",
+      "Recipe",
+      "Browned",
+      "Butter"
+    ],
+    "excerpt": "Browned Butter Chocolate Chunk Cookies"
+  },
+  "components": [
+    {
+      "role": "section",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "scene": {
+        "type": "parallax_scale"
+      },
+      "components": [
+        {
+          "role": "header",
+          "layout": "imageWideLayout",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://header.jpg",
+              "fillMode": "cover",
+              "verticalAlignment": "bottom"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainer",
+      "components": [
+        {
+          "role": "caption",
+          "text": "The browned butter in these chocolate chunk cookies lends a subtle nuttiness to their flavor.  PHOTO: A. HARDING",
+          "layout": "captionLayout",
+          "textStyle": "captionPhoto"
+        },
+        {
+          "role": "title",
+          "text": "Browned Butter Chocolate Chunk Cookies",
+          "layout": "titleLayout",
+          "textStyle": "title"
+        },
+        {
+          "role": "intro",
+          "text": "Take your all-American cookie classic to the next level—mouthwateringly gooey, sweet and slightly nutty—with the addition of roughly chopped chocolate and browned butter.",
+          "layout": "introLayout",
+          "textStyle": "intro"
+        },
+        {
+          "role": "author",
+          "text": "By Stewart Mason | May 14, 2015 | 10:45 AM",
+          "layout": "captionLayout",
+          "textStyle": "author"
+        },
+        {
+          "role": "heading",
+          "text": "INGREDIENTS",
+          "layout": "column1Layout",
+          "textStyle": "heading"
+        },
+        {
+          "role": "body",
+          "text": "YIELD: 3 DOZEN COOKIES\n",
+          "layout": "column1Layout",
+          "textStyle": "subheading"
+        },
+        {
+          "role": "body",
+          "text": "9 ounces chocolate (milk, semisweet, or dark), roughly chopped into chunks\n\n1 cup (2 sticks) unsalted butter\n\n2 ½ cups all-purpose flour\n\n1 teaspoon salt\n\n1 teaspoon baking soda\n\n½ teaspoon cinnamon\n\n1 cup brown sugar, packed\n\n½ cup sugar\n\n2 eggs\n\n1 teaspoon vanilla extract",
+          "layout": "column1BodyLayout",
+          "textStyle": "body"
+        },
+        {
+          "role": "heading1",
+          "text": "PREPARATION",
+          "layout": "column2Layout",
+          "textStyle": "heading"
+        },
+        {
+          "role": "heading2",
+          "text": "PREP TIME: 20 MINUTES  | BAKE TIME: 12 MINUTES\n",
+          "layout": "column2Layout",
+          "textStyle": "subheading"
+        },
+        {
+          "role": "body",
+          "text": " 1. Preheat oven to 350°F \n2. On a cutting board, coarsely chop the chocolate bars with a serrated knife into uneven chunks. Set aside.\n 3. Melt the butter in a medium stainless-steel saucepan on medium-low heat, continuing to cook as the butter bubbles and browns, whisking frequently. Once you begin smelling a nutty aroma and see tiny browned bits, immediately remove from the heat (the butter will burn if you wait too long) and pour into a small bowl; set aside to cool.\n 4. Mix the flour, salt, baking soda, and cinnamon; whisk vigorously to combine.\n 5. Pour the browned butter and both sugars into the bowl of your stand mixer and use the blade attachment to beat until smooth, pausing to scrape down the bowl occasionally. (This can also be done by hand or with an electric hand mixer.) Add the eggs, one at a time, beating well after each addition. Lastly, add the vanilla extract and beat for 3 more minutes, or until light and fluffy.\n 6. Add the flour mixture into the butter-sugar mixture one third at a time, stirring well to blend after each addition. Fold in the chocolate chunks.\n 7. Spoon rounded tablespoons of the dough onto parchment-lined baking sheets, leaving at least two inches between each cookie. \n 8. Bake in the preheated oven at 350°F for 10-12 minutes, at which time the edges should be lightly browned. (Halfway through the cooking time, rotate the baking sheets 180 degrees to promote even browning.) Allow to cool for 5 minutes on the baking sheets and then transfer to a wire rack to cool completely. ",
+          "layout": "column2BodyLayout",
+          "format": "markdown",
+          "textStyle": "body"
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": "photoLayout",
+      "style": {
+        "fill": {
+          "type": "image",
+          "URL": "bundle://bodyImage1.jpg",
+          "fillMode": "cover",
+          "verticalAlignment": "bottom"
+        }
+      }
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "sidebarContainer",
+      "components": [
+        {
+          "role": "caption",
+          "text": "HAVE THESE TOOLS ON HAND BEFORE BEGINNING PREPARATION",
+          "layout": "sidebarLayout",
+          "textStyle": "sidebarHeading"
+        },
+        {
+          "role": "caption",
+          "text": "Baking sheets (ideally 2-3, to bake multiple batches at once)\nParchment paper\nCutting board (a flexible plastic board makes it easy to deliver ingredients into bowls)\nSerrated knife\nMedium stainless-steel saucepan\nWire whisk\nMeasuring cups and spoons\nMixing bowls (2)\nStand mixer with blade attachment\nSpatula\nWire cooling rack \n",
+          "layout": "captionLayout",
+          "textStyle": "sidebar"
+        }
+      ]
+    }
+  ],
+  "componentStyles": {
+    "sidebarContainer": {
+      "backgroundColor": "#FF6600"
+    },
+    "whiteContainer": {
+      "backgroundColor": "#FFF"
+    }
+  },
+  "componentTextStyles": {
+    "title": {
+      "fontName": "Superclarendon-Bold",
+      "fontSize": 50,
+      "textColor": "#FF6600",
+      "textAlignment": "left",
+      "lineHeight": 50
+    },
+    "captionPhoto": {
+      "fontName": "AvenirNext-Regular",
+      "fontSize": 12,
+      "textColor": "#53585F",
+      "textAlignment": "left",
+      "lineHeight": 14
+    },
+    "intro": {
+      "fontName": "AvenirNext-Regular",
+      "fontSize": 22,
+      "textColor": "#53585F",
+      "textAlignment": "left",
+      "lineHeight": 28,
+      "hyphenation": true
+    },
+    "author": {
+      "fontName": "AvenirNext-DemiBold",
+      "fontSize": 12,
+      "textColor": "#53585F",
+      "textAlignment": "left",
+      "lineHeight": 12
+    },
+    "heading": {
+      "fontName": "AvenirNextCondensed-DemiBold",
+      "fontSize": 16,
+      "textColor": "#53585F",
+      "textAlignment": "left",
+      "lineHeight": 16
+    },
+    "subheading": {
+      "fontName": "AvenirNext-Bold",
+      "fontSize": 10,
+      "textColor": "#53585F",
+      "textAlignment": "left",
+      "lineHeight": 10
+    },
+    "body": {
+      "fontName": "AvenirNext-Regular",
+      "fontSize": 14,
+      "textColor": "#000000",
+      "textAlignment": "left",
+      "hyphenation": true,
+      "lineHeight": 20
+    },
+    "sidebarHeading": {
+      "fontName": "AvenirNextCondensed-DemiBold",
+      "fontSize": 16,
+      "textColor": "#FFFFFF",
+      "textAlignment": "center",
+      "lineHeight": 16
+    },
+    "sidebar": {
+      "fontName": "AvenirNextCondensed-DemiBold",
+      "fontSize": 16,
+      "textColor": "#FFFFFF",
+      "textAlignment": "center",
+      "lineHeight": 20
+    }
+  },
+  "componentLayouts": {
+    "imageWideLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "50vh"
+    },
+    "photoLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "87vh",
+      "margin": {
+        "top": 30
+      }
+    },
+    "captionLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 10,
+        "bottom": 30
+      }
+    },
+    "titleLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "introLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "bottom": 10
+      }
+    },
+    "column1Layout": {
+      "columnStart": 0,
+      "columnSpan": 3
+    },
+    "column1BodyLayout": {
+      "columnStart": 0,
+      "columnSpan": 3,
+      "margin": {
+        "bottom": 25
+      }
+    },
+    "column2Layout": {
+      "columnStart": 3,
+      "columnSpan": 4
+    },
+    "column2BodyLayout": {
+      "columnStart": 3,
+      "columnSpan": 4,
+      "margin": {
+        "bottom": 25
+      }
+    },
+    "sidebarLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 20
+      }
+    }
+  }
+}

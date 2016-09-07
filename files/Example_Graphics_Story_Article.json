@@ -1,0 +1,525 @@
+{
+  "version": "1.0",
+  "identifier": "Apple_Demo",
+  "title": "Example Graphics Story Article",
+  "subtitle": "Example Graphic Story Article Subtitle",
+  "language": "en",
+  "layout": {
+    "columns": 7,
+    "width": 1024,
+    "margin": 70,
+    "gutter": 40
+  },
+  "metadata": {
+    "thumbnailURL": "bundle://header.jpg",
+    "excerpt": "It would be easy to pass off California’s epic drought as an issue for the Golden State alone."
+  },
+  "components": [
+    {
+      "role": "section",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "components": [
+        {
+          "role": "header",
+          "layout": "headerContainerLayout",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://header.jpg",
+              "fillMode": "cover",
+              "horizontalAlignment": "left"
+            }
+          },
+          "components": [
+            {
+              "role": "title",
+              "text": "Five Pieces \nto the California \nDrought Puzzle",
+              "layout": "titleLayout",
+              "textStyle": "titleStyle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": "captionContainerLayout",
+      "style": "captionContainerStyle",
+      "components": [
+        {
+          "role": "caption",
+          "text": "California’s historic, four-year drought has the makings of an untenable natural disaster.   PHOTO: W. LEE",
+          "layout": "captionLayout",
+          "textStyle": "captionStyle",
+          "anchor": {
+            "targetAnchorPosition": "center",
+            "originAnchorPosition": "center"
+          }
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
+          "role": "byline",
+          "text": "by MICHAEL BURNS | October 25, 2015 | 11:15 AM",
+          "layout": {
+            "columnStart": 0,
+            "columnSpan": 7,
+            "margin": {
+              "top": 20,
+              "bottom": 10
+            }
+          },
+          "textStyle": "authorStyle"
+        },
+        {
+          "role": "illustrator",
+          "text": "Illustrations by LOREM IPSUM",
+          "layout": {
+            "columnStart": 0,
+            "columnSpan": 7,
+            "margin": {
+              "bottom": 15
+            }
+          },
+          "textStyle": "authorStyle"
+        },
+        {
+          "role": "divider",
+          "layout": {
+            "columnStart": 0,
+            "columnSpan": 7,
+            "margin": {
+              "bottom": 5
+            }
+          },
+          "stroke": {
+            "color": "#85888D",
+            "width": 2
+          }
+        },
+        {
+          "role": "body",
+          "text": "It would be easy to pass off California’s epic drought as an issue for the Golden State alone. But to do so is to ignore the region’s agricultural significance to the rest of the nation—California provides more than one-third of our country's vegetables and two-thirds of its fruits and nuts. With fruit and vegetable prices up between 2.5% and 3.5% (1), the drought may continue to wreak economic havoc in the months to come. ",
+          "layout": "introLayout",
+          "textStyle": "dropcapBodyStyle",
+          "inlineTextStyles": [
+            {
+              "rangeStart": 350,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
+              }
+            }
+          ]
+        },
+        {
+          "role": "divider",
+          "layout": {
+            "columnStart": 0,
+            "columnSpan": 7,
+            "margin": {
+              "top": 5,
+              "bottom": 20
+            }
+          },
+          "stroke": {
+            "color": "#85888D",
+            "width": 1
+          }
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "grayContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "1. Four Years, Little Rain",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic1.png",
+          "layout": "bodyImageLayout",
+          "anchor": {
+            "targetAnchorPosition": "top",
+            "originAnchorPosition": "top",
+            "targetComponentIdentifier": "body1"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "identifier": "body1",
+          "role": "body",
+          "text": "According to the National Weather Service, in 2015, the Sacramento region experienced its driest January since 1877, with no rain for over a month, while Central California—one of the world’s most productive agricultural areas—received even less rain than it had in the previous three Januaries. January is typically Northern California’s wettest month.\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle"
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "2. Unbeatable Heat",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic2.png",
+          "layout": "bodyImageLayout",
+          "anchor": {
+            "targetAnchorPosition": "top",
+            "originAnchorPosition": "top",
+            "targetComponentIdentifier": "body2"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "identifier": "body2",
+          "role": "body",
+          "text": "While droughts have been a part of the California landscape for more than four centuries—tree-ring records show that the state experienced a severe water shortage in 1580 (2)—the destruction incurred by the current drought is worsened severely by the extreme heat. High temperatures have depleted the state’s reservoirs and melted the mountain snowpack that is crucial to keeping lakes and farmlands wet in the summer months.\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "inlineTextStyles": [
+            {
+              "rangeStart": 171,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "grayContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "3. Where the Water Goes",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic3.png",
+          "layout": "bodyImageLayout",
+          "anchor": {
+            "targetAnchorPosition": "top",
+            "originAnchorPosition": "top",
+            "targetComponentIdentifier": "body3"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "identifier": "body3",
+          "role": "body",
+          "text": "On average, California uses 196 gallons of water per capita each day, though that number varies, often wildly, according to region. Palm Springs soaks up 736 gallons a day because of dry, hot conditions, which necessitate greater need for watered lawns and filled pools. That’s five times as much as city of Los Angeles, which uses just 152 gallons per day. The state's highest can be attributed to the tiny industrial city of Vernon, which has just 112 residents but houses 18,000 businesses. That dichotomy accounts for 94,111 gallons per capita every single day. (3) \n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "inlineTextStyles": [
+            {
+              "rangeStart": 566,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "4. The Fault of the Farmer?",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic4.png",
+          "layout": "bodyImageLayout",
+          "anchor": {
+            "targetAnchorPosition": "top",
+            "originAnchorPosition": "top",
+            "targetComponentIdentifier": "body4"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "identifier": "body4",
+          "role": "body",
+          "text": "While California’s 9 million acres of farmland use a vast amount of the state's water, with some research indicating as much as 80%, that figure is based on water allocated for human use only, and doesn’t take into account environmental use, like protected wild rivers, recreational purposes, and keeping ocean water out of the San Joaquin River Delta, which is where the state gets most of its drinkable water. Taking that data into consideration, water use can be attributed as approximately 40 to 60% for agriculture, 10 to 16% for urban use, and other purposes—including environmental—at about 22%. (4)\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "inlineTextStyles": [
+            {
+              "rangeStart": 603,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "grayContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "5. The Big Drop",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic5.png",
+          "layout": "bodyImageLayout",
+          "anchor": {
+            "targetAnchorPosition": "top",
+            "originAnchorPosition": "top",
+            "targetComponentIdentifier": "body5"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "identifier": "body5",
+          "role": "body",
+          "text": "California gets its water supply from three main resources: the mountain snowpack, water stored in its reservoirs, and water drawn from underground aquifers. According to the California Department of Water Resources’ climatologist, 150% of all the precipitation that falls in 2015 would be needed to provide even a good chance of filling the reservoirs and ending the drought.\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle"
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "Sources:",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "body",
+          "text": "1. Michael Martinez and Alexandra Meeks (April 3, 2015) [How historic California drought affects rest of nation, often for the worse](http://www.cnn.com/2015/04/03/us/california-drought/) \n2. Bettina Boxall (February 23, 2014) [Severe drought? California has been here before](http://articles.latimes.com/2014/feb/23/local/la-me-drought-weakness-20140223) \n3. Paul Rogers and Nicholas St. Fleur (February 7, 2014) [California Drought: Database shows big difference between water guzzlers and sippers](http://www.mercurynews.com/science/ci_25090363/california-drought-water-use-varies-widely-around-state) \n4. Molly Peterson (April 15, 2015) [Drought: 10 things to know about California water use](http://www.scpr.org/news/2015/04/15/50941/10-things-to-know-about-california-water-use/) \n",
+          "layout": "introLayout",
+          "format": "markdown",
+          "textStyle": "sourcesStyle"
+        }
+      ]
+    }
+  ],
+  "componentStyles": {
+    "whiteContainerStyle": {
+      "backgroundColor": "#FFF"
+    },
+    "captionContainerStyle": {
+      "backgroundColor": "#000"
+    },
+    "grayContainerStyle": {
+      "backgroundColor": "#F5F5F5"
+    }
+  },
+  "componentTextStyles": {
+    "titleStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Bold",
+      "fontSize": 64,
+      "lineHeight": 61,
+      "textColor": "#FFF"
+    },
+    "authorStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Bold",
+      "fontSize": 12,
+      "textColor": "#53585F"
+    },
+    "dropcapBodyStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue",
+      "fontSize": 22,
+      "lineHeight": 32,
+      "textColor": "#53585F",
+      "dropCapStyle": {
+        "numberOfLines": 2,
+        "numberOfCharacters": 1,
+        "fontName": "HelveticaNeue-Bold",
+        "textColor": "#53585F",
+        "padding": 0
+      }
+    },
+    "sourcesStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue",
+      "fontSize": 16,
+      "lineHeight": 24,
+      "textColor": "#53585F",
+      "linkStyle": {
+        "textColor": "#0066CC"
+      }
+    },
+    "bodyStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#000"
+    },
+    "captionStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Medium",
+      "fontSize": 12,
+      "lineHeight": 18,
+      "textColor": "#FFF"
+    },
+    "heading1Style": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue-Bold",
+      "fontSize": 22,
+      "lineHeight": 32,
+      "textColor": "#53585F"
+    }
+  },
+  "componentLayouts": {
+    "headerContainerLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "75vh"
+    },
+    "bodyImageLayout": {
+      "columnStart": 4,
+      "columnSpan": 3,
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "20vh",
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+    "titleLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": "20vh"
+      }
+    },
+    "introLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+    "heading1Layout": {
+      "columnStart": 0,
+      "columnSpan": 4,
+      "margin": {
+        "top": 25,
+        "bottom": 0
+      }
+    },
+    "bodyLayout": {
+      "columnStart": 0,
+      "columnSpan": 4,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+    "captionContainerLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true
+    },
+    "captionLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    }
+  }
+}
