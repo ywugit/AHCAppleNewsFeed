@@ -1,0 +1,7 @@
+{
+    "require": {
+        "chapter-three/apple-news-api": "^0.3.8",
+        "php-curl-class/php-curl-class": "^4.8",
+        "league/html-to-markdown": "^4.1"
+    }
+}
